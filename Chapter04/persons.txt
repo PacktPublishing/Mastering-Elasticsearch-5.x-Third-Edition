@@ -1,0 +1,21 @@
+{"index": {"_index": "persons", "_type": "person", "_id": "1"}}
+{"height":165,"self_esteem":7.2}
+{"index": {"_index": "persons", "_type": "person", "_id": "2"}}
+{"height":175,"self_esteem":8}
+{"index": {"_index": "persons", "_type": "person", "_id": "3"}}
+{"height":154,"self_esteem":5.3}
+{"index": {"_index": "persons", "_type": "person", "_id": "4"}}
+{"height":165,"self_esteem":7.2}
+{"index": {"_index": "persons", "_type": "person", "_id": "5"}}
+{"height":160,"self_esteem":6}
+{"index": {"_index": "persons", "_type": "person", "_id": "6"}}
+{"height":145,"self_esteem":4.5}
+{"index": {"_index": "persons", "_type": "person", "_id": "7"}}
+{"height":150,"self_esteem":5}
+{"index": {"_index": "persons", "_type": "person", "_id": "8"}}
+{"height":162,"self_esteem":6.1}
+{"index": {"_index": "persons", "_type": "person", "_id": "9"}}
+{"height":156,"self_esteem":5.8}
+{"index": {"_index": "persons", "_type": "person", "_id": "10"}}
+{"height":160,"self_esteem":6}
+

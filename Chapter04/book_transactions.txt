@@ -1,0 +1,30 @@
+{ "index": {}}
+{ "price" : 10000, "category" : "databases", "sold" : "2016-10-26" }
+{ "index": {}}
+{ "price" : 20000, "category" : "databases", "sold" : "2016-11-15" }
+{ "index": {}}
+{ "price" : 30000, "category" : "networking", "sold" : "2016-05-28" }
+{ "index": {}}
+{ "price" : 15000, "category" : "programming", "sold" : "2016-07-22" }
+{ "index": {}}
+{ "price" : 12000, "category" : "networking", "sold" : "2016-08-11" }
+{ "index": {}}
+{ "price" : 20000, "category" : "databases", "sold" : "2016-11-12" }
+{ "index": {}}
+{ "price" : 80000, "category" : "databases", "sold" : "2016-01-23" }
+{ "index": {}}
+{ "price" : 25000, "category" : "programming", "sold" : "2016-02-11" }
+{ "index": {}}
+{ "price" : 20000, "category" : "databases", "sold" : "2016-12-15" }
+{ "index": {}}
+{ "price" : 30000, "category" : "networking", "sold" : "2016-03-28" }
+{ "index": {}}
+{ "price" : 5000, "category" : "programming", "sold" : "2016-07-12" }
+{ "index": {}}
+{ "price" : 7000, "category" : "networking", "sold" : "2016-09-14" }
+{ "index": {}}
+{ "price" : 20000, "category" : "databases", "sold" : "2016-05-27" }
+{ "index": {}}
+{ "price" : 80000, "category" : "databases", "sold" : "2016-01-04" }
+{ "index": {}}
+{ "price" : 25000, "category" : "programming", "sold" : "2016-01-18" }

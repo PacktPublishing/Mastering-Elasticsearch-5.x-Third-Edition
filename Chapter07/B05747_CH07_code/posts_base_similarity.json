@@ -1,0 +1,21 @@
+{
+ "settings" : {
+  "index" : {
+   "similarity" : {
+    "base" : {
+     "type" : "default",
+     "discount_overlaps" : false
+    }
+   }
+  }
+ }, 
+ "mappings" : {
+  "post" : {
+   "properties" : {
+    "id" : { "type" : "long", "store" : "yes" },
+    "name" : { "type" : "text", "store" : "yes", "index" : "analyzed", "similarity" : "mastering_similarity" },
+    "contents" : { "type" : "text", "store" : "no", "index" : "analyzed" }
+   }
+  }
+ }
+}

@@ -1,0 +1,426 @@
+{
+   "took": 2,
+   "timed_out": false,
+   "_shards": {
+      "total": 5,
+      "successful": 5,
+      "failed": 0
+   },
+   "hits": {
+      "total": 2,
+      "max_score": 0.5063205,
+      "hits": [
+         {
+            "_index": "elasticsearch_books",
+            "_type": "books",
+            "_id": "2",
+            "_score": 0.5063205,
+            "_source": {
+               "author": "d_bharvi",
+               "publishing_date": "2009-11-15T14:12:13",
+               "title": "Mastering Elasticsearch 5.0"
+            }
+         },
+         {
+            "_index": "elasticsearch_books",
+            "_type": "books",
+            "_id": "1",
+            "_score": 0.25811607,
+            "_source": {
+               "author": "d_bharvi",
+               "publishing_date": "2009-11-15T14:12:12",
+               "title": "Elasticsearch Essentials"
+            }
+         }
+      ]
+   },
+   "profile": {
+      "shards": [
+         {
+            "id": "[1NhLoN37S-OvF9QdqD4OmA][elasticsearch_books][3]",
+            "searches": [
+               {
+                  "query": [
+                     {
+                        "type": "BooleanQuery",
+                        "description": "title:mastering title:elasticsearch",
+                        "time": "0.2596310000ms",
+                        "breakdown": {
+                           "score": 2730,
+                           "build_scorer_count": 1,
+                           "match_count": 0,
+                           "create_weight": 201283,
+                           "next_doc": 5341,
+                           "match": 0,
+                           "create_weight_count": 1,
+                           "next_doc_count": 2,
+                           "score_count": 1,
+                           "build_scorer": 50272,
+                           "advance": 0,
+                           "advance_count": 0
+                        },
+                        "children": [
+                           {
+                              "type": "TermQuery",
+                              "description": "title:mastering",
+                              "time": "0.09245300000ms",
+                              "breakdown": {
+                                 "score": 0,
+                                 "build_scorer_count": 1,
+                                 "match_count": 0,
+                                 "create_weight": 90642,
+                                 "next_doc": 0,
+                                 "match": 0,
+                                 "create_weight_count": 1,
+                                 "next_doc_count": 0,
+                                 "score_count": 0,
+                                 "build_scorer": 1809,
+                                 "advance": 0,
+                                 "advance_count": 0
+                              }
+                           },
+                           {
+                              "type": "TermQuery",
+                              "description": "title:elasticsearch",
+                              "time": "0.1238730000ms",
+                              "breakdown": {
+                                 "score": 1875,
+                                 "build_scorer_count": 1,
+                                 "match_count": 0,
+                                 "create_weight": 80743,
+                                 "next_doc": 3058,
+                                 "match": 0,
+                                 "create_weight_count": 1,
+                                 "next_doc_count": 2,
+                                 "score_count": 1,
+                                 "build_scorer": 38192,
+                                 "advance": 0,
+                                 "advance_count": 0
+                              }
+                           }
+                        ]
+                     }
+                  ],
+                  "rewrite_time": 10025,
+                  "collector": [
+                     {
+                        "name": "SimpleTopScoreDocCollector",
+                        "reason": "search_top_hits",
+                        "time": "0.007355000000ms"
+                     }
+                  ]
+               }
+            ],
+            "aggregations": []
+         },
+         {
+            "id": "[1NhLoN37S-OvF9QdqD4OmA][elasticsearch_books][2]",
+            "searches": [
+               {
+                  "query": [
+                     {
+                        "type": "BooleanQuery",
+                        "description": "title:mastering title:elasticsearch",
+                        "time": "0.2877650000ms",
+                        "breakdown": {
+                           "score": 6345,
+                           "build_scorer_count": 1,
+                           "match_count": 0,
+                           "create_weight": 182535,
+                           "next_doc": 12392,
+                           "match": 0,
+                           "create_weight_count": 1,
+                           "next_doc_count": 2,
+                           "score_count": 1,
+                           "build_scorer": 86488,
+                           "advance": 0,
+                           "advance_count": 0
+                        },
+                        "children": [
+                           {
+                              "type": "TermQuery",
+                              "description": "title:mastering",
+                              "time": "0.1331920000ms",
+                              "breakdown": {
+                                 "score": 1979,
+                                 "build_scorer_count": 1,
+                                 "match_count": 0,
+                                 "create_weight": 93780,
+                                 "next_doc": 2613,
+                                 "match": 0,
+                                 "create_weight_count": 1,
+                                 "next_doc_count": 2,
+                                 "score_count": 1,
+                                 "build_scorer": 34815,
+                                 "advance": 0,
+                                 "advance_count": 0
+                              }
+                           },
+                           {
+                              "type": "TermQuery",
+                              "description": "title:elasticsearch",
+                              "time": "0.08539100000ms",
+                              "breakdown": {
+                                 "score": 731,
+                                 "build_scorer_count": 1,
+                                 "match_count": 0,
+                                 "create_weight": 65343,
+                                 "next_doc": 1337,
+                                 "match": 0,
+                                 "create_weight_count": 1,
+                                 "next_doc_count": 2,
+                                 "score_count": 1,
+                                 "build_scorer": 17975,
+                                 "advance": 0,
+                                 "advance_count": 0
+                              }
+                           }
+                        ]
+                     }
+                  ],
+                  "rewrite_time": 7234,
+                  "collector": [
+                     {
+                        "name": "SimpleTopScoreDocCollector",
+                        "reason": "search_top_hits",
+                        "time": "0.01090200000ms"
+                     }
+                  ]
+               }
+            ],
+            "aggregations": []
+         },
+         {
+            "id": "[1NhLoN37S-OvF9QdqD4OmA][elasticsearch_books][4]",
+            "searches": [
+               {
+                  "query": [
+                     {
+                        "type": "BooleanQuery",
+                        "description": "title:mastering title:elasticsearch",
+                        "time": "0.1021790000ms",
+                        "breakdown": {
+                           "score": 0,
+                           "build_scorer_count": 0,
+                           "match_count": 0,
+                           "create_weight": 102178,
+                           "next_doc": 0,
+                           "match": 0,
+                           "create_weight_count": 1,
+                           "next_doc_count": 0,
+                           "score_count": 0,
+                           "build_scorer": 0,
+                           "advance": 0,
+                           "advance_count": 0
+                        },
+                        "children": [
+                           {
+                              "type": "TermQuery",
+                              "description": "title:mastering",
+                              "time": "0.06702700000ms",
+                              "breakdown": {
+                                 "score": 0,
+                                 "build_scorer_count": 0,
+                                 "match_count": 0,
+                                 "create_weight": 67026,
+                                 "next_doc": 0,
+                                 "match": 0,
+                                 "create_weight_count": 1,
+                                 "next_doc_count": 0,
+                                 "score_count": 0,
+                                 "build_scorer": 0,
+                                 "advance": 0,
+                                 "advance_count": 0
+                              }
+                           },
+                           {
+                              "type": "TermQuery",
+                              "description": "title:elasticsearch",
+                              "time": "0.01072300000ms",
+                              "breakdown": {
+                                 "score": 0,
+                                 "build_scorer_count": 0,
+                                 "match_count": 0,
+                                 "create_weight": 10722,
+                                 "next_doc": 0,
+                                 "match": 0,
+                                 "create_weight_count": 1,
+                                 "next_doc_count": 0,
+                                 "score_count": 0,
+                                 "build_scorer": 0,
+                                 "advance": 0,
+                                 "advance_count": 0
+                              }
+                           }
+                        ]
+                     }
+                  ],
+                  "rewrite_time": 12812,
+                  "collector": [
+                     {
+                        "name": "SimpleTopScoreDocCollector",
+                        "reason": "search_top_hits",
+                        "time": "0.0007300000000ms"
+                     }
+                  ]
+               }
+            ],
+            "aggregations": []
+         },
+         {
+            "id": "[1NhLoN37S-OvF9QdqD4OmA][elasticsearch_books][1]",
+            "searches": [
+               {
+                  "query": [
+                     {
+                        "type": "BooleanQuery",
+                        "description": "title:mastering title:elasticsearch",
+                        "time": "0.09609700000ms",
+                        "breakdown": {
+                           "score": 0,
+                           "build_scorer_count": 0,
+                           "match_count": 0,
+                           "create_weight": 96096,
+                           "next_doc": 0,
+                           "match": 0,
+                           "create_weight_count": 1,
+                           "next_doc_count": 0,
+                           "score_count": 0,
+                           "build_scorer": 0,
+                           "advance": 0,
+                           "advance_count": 0
+                        },
+                        "children": [
+                           {
+                              "type": "TermQuery",
+                              "description": "title:mastering",
+                              "time": "0.05175100000ms",
+                              "breakdown": {
+                                 "score": 0,
+                                 "build_scorer_count": 0,
+                                 "match_count": 0,
+                                 "create_weight": 51750,
+                                 "next_doc": 0,
+                                 "match": 0,
+                                 "create_weight_count": 1,
+                                 "next_doc_count": 0,
+                                 "score_count": 0,
+                                 "build_scorer": 0,
+                                 "advance": 0,
+                                 "advance_count": 0
+                              }
+                           },
+                           {
+                              "type": "TermQuery",
+                              "description": "title:elasticsearch",
+                              "time": "0.01552900000ms",
+                              "breakdown": {
+                                 "score": 0,
+                                 "build_scorer_count": 0,
+                                 "match_count": 0,
+                                 "create_weight": 15528,
+                                 "next_doc": 0,
+                                 "match": 0,
+                                 "create_weight_count": 1,
+                                 "next_doc_count": 0,
+                                 "score_count": 0,
+                                 "build_scorer": 0,
+                                 "advance": 0,
+                                 "advance_count": 0
+                              }
+                           }
+                        ]
+                     }
+                  ],
+                  "rewrite_time": 13518,
+                  "collector": [
+                     {
+                        "name": "SimpleTopScoreDocCollector",
+                        "reason": "search_top_hits",
+                        "time": "0.0007150000000ms"
+                     }
+                  ]
+               }
+            ],
+            "aggregations": []
+         },
+         {
+            "id": "[1NhLoN37S-OvF9QdqD4OmA][elasticsearch_books][0]",
+            "searches": [
+               {
+                  "query": [
+                     {
+                        "type": "BooleanQuery",
+                        "description": "title:mastering title:elasticsearch",
+                        "time": "0.06245700000ms",
+                        "breakdown": {
+                           "score": 0,
+                           "build_scorer_count": 0,
+                           "match_count": 0,
+                           "create_weight": 62456,
+                           "next_doc": 0,
+                           "match": 0,
+                           "create_weight_count": 1,
+                           "next_doc_count": 0,
+                           "score_count": 0,
+                           "build_scorer": 0,
+                           "advance": 0,
+                           "advance_count": 0
+                        },
+                        "children": [
+                           {
+                              "type": "TermQuery",
+                              "description": "title:mastering",
+                              "time": "0.02346800000ms",
+                              "breakdown": {
+                                 "score": 0,
+                                 "build_scorer_count": 0,
+                                 "match_count": 0,
+                                 "create_weight": 23467,
+                                 "next_doc": 0,
+                                 "match": 0,
+                                 "create_weight_count": 1,
+                                 "next_doc_count": 0,
+                                 "score_count": 0,
+                                 "build_scorer": 0,
+                                 "advance": 0,
+                                 "advance_count": 0
+                              }
+                           },
+                           {
+                              "type": "TermQuery",
+                              "description": "title:elasticsearch",
+                              "time": "0.01349700000ms",
+                              "breakdown": {
+                                 "score": 0,
+                                 "build_scorer_count": 0,
+                                 "match_count": 0,
+                                 "create_weight": 13496,
+                                 "next_doc": 0,
+                                 "match": 0,
+                                 "create_weight_count": 1,
+                                 "next_doc_count": 0,
+                                 "score_count": 0,
+                                 "build_scorer": 0,
+                                 "advance": 0,
+                                 "advance_count": 0
+                              }
+                           }
+                        ]
+                     }
+                  ],
+                  "rewrite_time": 10742,
+                  "collector": [
+                     {
+                        "name": "SimpleTopScoreDocCollector",
+                        "reason": "search_top_hits",
+                        "time": "0.0007470000000ms"
+                     }
+                  ]
+               }
+            ],
+            "aggregations": []
+         }
+      ]
+   }
+}

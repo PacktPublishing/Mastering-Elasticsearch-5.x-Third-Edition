@@ -1,0 +1,13 @@
+{
+ "mappings" : {
+  "post" : {
+   "properties" : {
+    "id" : { "type" : "long", "store" : "yes" },
+    "name" : { "type" : "text", "store" : "yes", "index" : 
+"analyzed", "similarity" : "classic" },
+    "contents" : { "type" : "text", "store" : "no", "index" : 
+"analyzed", "similarity" : "classic" }
+   }
+  }
+ }
+}

@@ -1,0 +1,21 @@
+{
+  "properties": {
+    "title": {
+      "type": "text"
+    },
+    "quantity": {
+      "type": "integer"
+    },
+    "edition": {
+      "type": "object",
+      "properties": {
+        "isbn": {
+          "type": "keyword"
+        },
+        "circulation": {
+          "type": "integer"
+        }
+      }
+    }
+  }
+}
